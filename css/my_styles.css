@@ -1,0 +1,68 @@
+
+.header{
+    padding: 0;
+}
+.row-spy{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 60px;
+    z-index: 5;
+    /* right: 50%; */
+    /* transform: translateX(50%); */
+}
+.spy-list{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+.table-of-contents{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.table-of-contents a{
+    padding: 3px 15px;
+    color: white;
+}
+.table-of-contents a:hover{
+    padding: 3px 15px;
+    border: none;
+    color: white;
+}
+.txt-shadow:hover{
+    text-shadow: 1px 1px 2px rgb(12, 12, 12);
+}
+.table-of-contents a.active{
+    padding: 3px 15px;
+    border-bottom: 3px solid rgb(238, 110, 115);
+    border-left: none;
+}
+.subtitle{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.my-form{
+    margin: 0;
+    padding: 10px;
+}
+.title-forms{
+    height: 95vh;
+}
+.heading{
+    display: inline-block;
+    padding: 0;
+}
+.sidebar{
+    margin: 1rem 0;
+    padding: 0.5rem 0 2rem;
+}
+.carousel .carousel-item{
+    width: 300px !important;
+    height: 300px;
+}
+
