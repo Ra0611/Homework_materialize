@@ -8,9 +8,7 @@
     padding: 0;
     position: fixed;
     top: 60px;
-    z-index: 5;
-    /* right: 50%; */
-    /* transform: translateX(50%); */
+    z-index: 3;
 }
 .spy-list{
     width: 50%;
@@ -25,6 +23,15 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width: 575px){
+    .table-of-contents{
+        flex-direction: column;
+        align-items: center;
+    }
+    .row-spy{
+        top: 55px;
+    }
+}
 .table-of-contents a{
     padding: 3px 15px;
     color: white;
@@ -36,6 +43,9 @@
 }
 .txt-shadow:hover{
     text-shadow: 1px 1px 2px rgb(12, 12, 12);
+}
+.txt-link:hover{
+    text-shadow: 1px 1px rgb(12, 12, 12);
 }
 .table-of-contents a.active{
     padding: 3px 15px;
@@ -66,3 +76,14 @@
     height: 300px;
 }
 
+/* #sidenav-overlay {
+    background-color: rgba(0,0,0,0);
+} */
+
+.container-positioned{
+    position: relative;
+    top: 30px;
+}
+.comment-item{
+    display: flex;
+}
