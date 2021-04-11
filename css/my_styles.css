@@ -60,6 +60,27 @@
     margin: 0;
     padding: 10px;
 }
+@media screen and (max-height: 400px){
+    .my-form{
+        height: 65vh;
+        position: relative;
+        top: 40px;
+    }
+    .input-name{
+        margin-top: 0;  
+    }
+    .validate{
+        margin-bottom: 14px !important;
+    }
+    .card{
+        margin-top: 20px;/*выравниваю карточки посредине экрана*/
+        height: 200px !important;
+    }
+    .card-image img{
+        width: 200px !important;
+        height: 120px ;
+    }
+}
 .title-forms{
     height: 95vh;
 }
@@ -76,9 +97,9 @@
     height: 300px;
 }
 
-/* #sidenav-overlay {
+#sidenav-overlay {
     background-color: rgba(0,0,0,0);
-} */
+}
 
 .container-positioned{
     position: relative;
