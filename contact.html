@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materialize test</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="CSS/my_styles.css">
+</head>
+
+<body>
+    <header id="Home" class="header section scrollspy">
+        <div class="navbar-fixed z-depth-0">
+            <nav class="indigo lighten-1">
+                <div class="nav-wrapper">
+                    <div class="container">
+                        <a href="#" class="brand-logo">Materialize</a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i
+                                class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="txt-shadow" href="my_index.html">Home</a></li>
+                            <li><a class="txt-shadow" href="#">Blog</a></li>
+                            <li><a class="txt-shadow" href="#">Contact</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a class="txt-shadow" href="my_index.html">Home</a></li>
+                            <li><a class="txt-shadow" href="#">Blog</a></li>
+                            <li><a class="txt-shadow" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main main-contact">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6 l6 offset-l3">
+                        <input id="first_name" type="text" class="validate">
+                        <label class="indigo-text" for="first_name">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l6 offset-l3">
+                        <input id="email" type="email" class="validate">
+                        <label class="indigo-text" for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 l6 offset-l3">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label class="indigo-text" for="textarea1">Massage</label>
+                        <a href="#" class="btn white pink-text txt-link">SUBMIT MASSAGE</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="page-footer indigo">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 s6">
+                    <h5 class="white-text">Menu</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="my_index.html">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col l4 offset-l4 s6">
+                    <h5 class="white-text">Social</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made with Materialize
+            </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/my_screepts.js"></script>
+</body>
+
+</html>

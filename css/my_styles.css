@@ -87,3 +87,12 @@
 .comment-item{
     display: flex;
 }
+.main-contact{
+    margin: 2rem 0;
+}
+.materialize-textarea{
+    padding: 0 !important;
+}
+.validate, .materialize-textarea{
+    border-bottom-color: indigo !important;
+}
